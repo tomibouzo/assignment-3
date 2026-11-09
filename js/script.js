@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY";
+const apiKey = "OXKVAUP1p9oxUfR5uXxiepYNeEfOCnA4";
 const gifContainer = document.querySelector("#gif-container");
 const fetchButton = document.querySelector("#fetch-gif-btn");
 const searchInput = document.querySelector("#search-input");
@@ -9,7 +9,7 @@ fetchButton.addEventListener("click", async function () {
     return;
   }
 
-  if (apiKey === "YOUR_API_KEY") {
+  if (!apiKey) {
     statusMessage.textContent = "Giphy isn't connected yet.";
     return;
   }

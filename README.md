@@ -4,9 +4,10 @@ Search for GIFs using Giphy's Search endpoint. Click **Fetch a GIF** or press En
 
 ## Setup
 
-1. Open `js/script.js` and replace `YOUR_API_KEY` with your Giphy API key.
-2. Open `index.html` with Live Server in VS Code.
-3. Enter a keyword and click **Fetch a GIF**.
+1. Open `index.html` with Live Server in VS Code.
+2. Enter a keyword and click **Fetch a GIF**.
+
+The assignment key is configured in `js/script.js`. To use a different Giphy key, update `apiKey` in that file.
 
 This assignment uses a key directly in the browser JavaScript, as described in the assignment instructions. If you keep a reference copy in `.env`, that file is ignored by Git; the page does not read `.env`.
 

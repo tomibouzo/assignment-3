@@ -1,1 +1,26 @@
-# Assignment #9 - Giphy API
+# Assignment #3 - Giphy API
+
+Search for GIFs using Giphy's Search endpoint. Click **Fetch a GIF** or press Enter to display up to 12 results. Leave the search field blank to get dog GIFs.
+
+## Setup
+
+1. Open `index.html` with Live Server in VS Code.
+2. Enter a keyword and click **Fetch a GIF**.
+
+The assignment key is configured in `js/script.js`. To use a different Giphy key, update `apiKey` in that file.
+
+This assignment uses a key directly in the browser JavaScript, as described in the assignment instructions. If you keep a reference copy in `.env`, that file is ignored by Git; the page does not read `.env`.
+
+## Features
+
+- Fetches GIFs with `fetch()` and `async`/`await`.
+- Stores the original image URLs in an `images` array and logs them to the console.
+- Displays results in a Bootstrap grid and replaces the previous results on each search.
+- Includes the extra-credit keyword search, with spaces and special characters encoded in the request.
+- Shows loading, no-results, and request-error messages.
+
+## Course resources
+
+- Application Programming Interfaces
+- The Call Stack and Asynchronous JavaScript
+- Sending API Requests with JavaScript
